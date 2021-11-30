@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     // Successful request response here
 
                     // extracting "main" object from response, "main" contains temp, pressure
-                    //humidity, max_temp, min_temp
+                    //humidity, max_temp, min_tempasd
                     extractMain(response);
 
                     // extracting "wind" object from response, it contains wind speed
