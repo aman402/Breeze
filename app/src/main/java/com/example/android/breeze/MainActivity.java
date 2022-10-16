@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-//Not updated to work after 2022 January
+//Need to renew API Keys
 
 public class MainActivity extends AppCompatActivity {
 
