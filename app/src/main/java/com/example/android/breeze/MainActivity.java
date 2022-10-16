@@ -25,6 +25,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+//Not updated to work after 2022 January
+
 public class MainActivity extends AppCompatActivity {
 
     // Create all textview and imageview objects here and then link them with their XML counterpart
