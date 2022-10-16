@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Create all textview and imageview objects here and then link them with their XML counterpart
 
-    private RequestQueue mQueue; // Volley's request queue object, its initialised in executeAPI
+    private RequestQueue mQueue; // Volley's request queue object, its initialised in onCreate()
     String lat = "", lon = "";
 
     @Override
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     // Successful request response here
 
                     // extracting "main" object from response, "main" contains temp, pressure
-                    //humidity, max_temp, min_tempasd
+                    //humidity, max_temp, min_temp
                     extractMain(response);
 
                     // extracting "wind" object from response, it contains wind speed

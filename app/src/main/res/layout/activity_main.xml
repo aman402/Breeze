@@ -58,7 +58,8 @@
                 android:inputType="textPersonName"
                 android:padding="15dp"
                 android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"></EditText>
+                android:textColorHint="#FFFFFF">
+            </EditText>
 
             <ImageButton
                 android:id="@+id/search"
@@ -66,7 +67,8 @@
                 android:layout_height="48dp"
                 android:layout_marginStart="7dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/search"></ImageButton>
+                android:background="@drawable/search">
+            </ImageButton>
 
         </LinearLayout>
 
